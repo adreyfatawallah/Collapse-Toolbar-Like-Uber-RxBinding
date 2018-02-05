@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextGrey9B" parent="AppTheme">
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:textColor">@color/grey9B</item>
+    </style>
+
+    <style name="TextBlack" parent="AppTheme">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="DialogDefault" parent="AppTheme">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Button" parent="AppTheme">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@color/tx_button</item>
+    </style>
+
+</resources>

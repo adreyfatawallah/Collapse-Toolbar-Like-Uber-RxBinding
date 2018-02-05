@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FormLogin">
+        <attr name="fl_title" format="string" />
+        <attr name="fl_icon" format="reference"/>
+        <attr name="fl_input_type" format="string" />
+        <attr name="fl_password_toggle" format="boolean"/>
+    </declare-styleable>
+
+</resources>

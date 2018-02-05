@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Collapse Toolbar Like Uber + RxBind</string>
+    <string name="sample">Sample</string>
+    <string name="login">Login</string>
+    <string name="close">Tutup</string>
+    <string name="please_login">Silahkan Login</string>
+    <string name="sentence_login">Silahkan masukkan email dan password anda untuk login</string>
+    <string name="please_wait">Silahkan Menunggu.</string>
+
+    <string-array name="please_waiting">
+        <item>Silahkan Menunggu..</item>
+        <item>Silahkan Menunggu...</item>
+    </string-array>
+</resources>
