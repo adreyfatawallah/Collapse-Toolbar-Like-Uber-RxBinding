@@ -6,6 +6,7 @@
     <string name="please_login">Silahkan Login</string>
     <string name="sentence_login">Silahkan masukkan email dan password anda untuk login</string>
     <string name="please_wait">Silahkan Menunggu.</string>
+    <string name="sentence_welcome">Selamat datang di repository saya. Terima kasih telah mendownload :)</string>
 
     <string-array name="please_waiting">
         <item>Silahkan Menunggu..</item>
