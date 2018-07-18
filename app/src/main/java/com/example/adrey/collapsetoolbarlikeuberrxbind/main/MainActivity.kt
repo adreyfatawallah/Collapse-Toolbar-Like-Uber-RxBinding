@@ -34,7 +34,7 @@ class MainActivity : BaseActivity(), MainInterface.MainView, View.OnClickListene
     }
 
     override fun onAttachView() {
-        mainPresenter.onAttach(this, this, composite)
+        mainPresenter.onAttach(this, this)
     }
 
     override fun valid(type: String, valid: Boolean) {

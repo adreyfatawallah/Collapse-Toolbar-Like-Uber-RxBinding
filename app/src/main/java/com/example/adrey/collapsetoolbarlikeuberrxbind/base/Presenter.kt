@@ -8,7 +8,7 @@ import io.reactivex.disposables.CompositeDisposable
  */
 interface Presenter<in T: View> {
 
-    fun onAttach(view: T, context: Context, composite: CompositeDisposable)
+    fun onAttach(view: T, context: Context)
 
     fun onDetach()
 }

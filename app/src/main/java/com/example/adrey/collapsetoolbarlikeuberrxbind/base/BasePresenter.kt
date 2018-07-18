@@ -12,10 +12,9 @@ abstract class BasePresenter<T: View> : Presenter<T> {
     private var context: Context? = null
     private var composite: CompositeDisposable = CompositeDisposable()
 
-    override fun onAttach(view: T, context: Context, composite: CompositeDisposable) {
+    override fun onAttach(view: T, context: Context) {
         this.view = view
         this.context = context
-        this.composite = composite
     }
 
     override fun onDetach() {
